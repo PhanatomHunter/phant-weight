@@ -1,0 +1,47 @@
+{
+  "checkpoint": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+  "cli_version": "0.1.0",
+  "steps": {
+    "pack": {
+      "seconds": 55.34830840699999,
+      "result": {
+        "input_bytes": 2200119864,
+        "blocks": 525,
+        "sha256": "6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933",
+        "archive_bytes": 1618158289,
+        "size_reduction_percent": 26.451357697482248
+      }
+    },
+    "verify": {
+      "seconds": 14.722680916999934,
+      "result": {
+        "output_bytes": 2200119864,
+        "blocks": 525,
+        "sha256": "6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933",
+        "verified": true
+      }
+    },
+    "unpack": {
+      "seconds": 16.02772826599994,
+      "result": {
+        "output_bytes": 2200119864,
+        "blocks": 525,
+        "sha256": "6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933",
+        "archive_bytes": 1618158289
+      }
+    },
+    "compare": {
+      "seconds": 6.51629493400003,
+      "result": {
+        "equal_size_and_sha256": true
+      }
+    }
+  },
+  "independent_byte_for_byte_equal": true,
+  "environment": {
+    "python": "3.13.16 (main, Oct  6 2026, 04:38:44) [GCC 14.2.0]",
+    "platform": "Linux-6.1.158+-x86_64-with-glibc2.41",
+    "numpy": "2.3.5"
+  }
+}

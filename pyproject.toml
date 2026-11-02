@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modelpack-v4"
+version = "0.1.0"
+description = "Lossless, bounded-memory model checkpoint compression with integrity verification"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.24"]
+classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "Topic :: System :: Archiving :: Compression"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+modelpack = "modelpack_v4.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

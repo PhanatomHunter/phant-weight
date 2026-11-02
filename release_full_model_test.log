@@ -1,0 +1,28 @@
+Downloading pinned reference
+pack {
+  "input_bytes": 2200119864,
+  "blocks": 525,
+  "sha256": "6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933",
+  "archive_bytes": 1618158289,
+  "size_reduction_percent": 26.451357697482248
+}
+
+verify {
+  "output_bytes": 2200119864,
+  "blocks": 525,
+  "sha256": "6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933",
+  "verified": true
+}
+
+unpack {
+  "output_bytes": 2200119864,
+  "blocks": 525,
+  "sha256": "6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933",
+  "archive_bytes": 1618158289
+}
+
+compare {
+  "equal_size_and_sha256": true
+}
+
+COMPLETE True

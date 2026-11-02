@@ -1,0 +1,24 @@
+Downloaded
+Encoded {'input_bytes': 2200119864, 'encoded_bytes': 1618158289, 'sha256': '6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933', 'blocks': 525, 'encode_seconds': 54.74012085200002}
+{
+  "input_bytes": 2200119864,
+  "encoded_bytes": 1618158289,
+  "sha256": "6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933",
+  "blocks": 525,
+  "encode_seconds": 54.74012085200002,
+  "decode_seconds": 16.251558928999998,
+  "decoded_sha256": "6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933",
+  "byte_for_byte_equal": true,
+  "size_reduction_percent": 26.451357697482248,
+  "elapsed_seconds": 108.91675213799999,
+  "source": {
+    "repo": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6"
+  },
+  "limitations": [
+    "Lossless checkpoint encoding, not extracted nonlinear geometry",
+    "Original parameter information retained",
+    "No inference speedup or knowledge test",
+    "Tokenizer/config not part of encoded checkpoint file"
+  ]
+}
